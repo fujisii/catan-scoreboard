@@ -1,9 +1,9 @@
-import React from 'react';
+import { VFC } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
+// eslint-disable-next-line react/function-component-definition
+const App: VFC = () => (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +21,5 @@ function App() {
       </header>
     </div>
   );
-}
 
 export default App;
