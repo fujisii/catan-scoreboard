@@ -34,5 +34,7 @@ function countDown() {
   console.log('count down');
 }
 // TODO: https://typescriptbook.jp/tutorials/react-like-button-tutorial
+// TODO: keyword: react counter codepen
+//        https://codepen.io/x-cold/pen/ZNEReY
 
 export default App;
