@@ -1,9 +1,10 @@
-import { VFC } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 // eslint-disable-next-line react/function-component-definition
-const App: VFC = () => (
+function App() {
+  return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -23,7 +24,9 @@ const App: VFC = () => (
         <button type="button" className="MinusButton" onClick={countDown}>-</button>
       </header>
     </div>
-);
+  );
+}
+
 function countUp() {
   console.log('count up');
 }
