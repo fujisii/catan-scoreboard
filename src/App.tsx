@@ -18,8 +18,18 @@ const App: VFC = () => (
         >
           Learn React
         </a>
+        <p className="TotalCount">0</p>
+        <button type="button" className="PlusButton" onClick={countUp}>+</button>
+        <button type="button" className="MinusButton" onClick={countDown}>-</button>
       </header>
     </div>
-  );
+);
+function countUp() {
+  console.log('count up');
+}
+function countDown() {
+  console.log('count down');
+}
+// TODO: https://typescriptbook.jp/tutorials/react-like-button-tutorial
 
 export default App;
