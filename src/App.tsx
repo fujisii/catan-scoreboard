@@ -6,11 +6,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Area />
+      <Area />
+      <Area />
+      <Area />
     </div>
   );
 }
 
+function Area() {
+  return (
+    <div className="Area">
+      <Counter />
+    </div>
+  );
+}
 function Counter() {
   const [count, setCount] = React.useState(0);
   return (

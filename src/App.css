@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.Area {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  /* background-color: #ffff99; */
+}
+
+.Area-Orange {
+  background-color: #ffd700;
+}
+.Area-White {
+  background-color: #ffffe0;
+}
+.Area-Red {
+  background-color: #dc143c;
+}
+.Area-Blue {
+  background-color: #4169e1;
+}
+
+
