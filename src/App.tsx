@@ -6,11 +6,39 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Area />
-      <Area />
-      <Area />
-      <Area />
+      <Header />
+      <Main />
+      <Footer />
     </div>
+  );
+}
+
+function Header() {
+  return (
+    <div className="LineTop">
+      Catan Scoreboard
+    </div>
+  );
+}
+
+function Main() {
+  return (
+    <main className="Main">
+      <Area />
+      <Area />
+      <Area />
+      <Area />
+    </main>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="Footer">
+      <div className="LineBottom">
+        Created by <a href="https://github.com/fujisii">fujisii</a>
+      </div>
+    </footer>
   );
 }
 
