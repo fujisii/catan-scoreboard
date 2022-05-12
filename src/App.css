@@ -31,7 +31,7 @@ body {
 .Main {
   height: 100%;
   display: flex;
-  background-color: #ffd700;
+  /* background-color: #ffd700; */
 }
 .App-logo {
   height: 40vmin;
@@ -39,15 +39,22 @@ body {
 }
 
 .LineTop {
+  color: azure;
+  background-color: #0e0b16;
   margin-bottom: 5px;
-  padding: 15px;
-  background-color: #d3440c;
+  padding: 20px;
 }
 
 .LineBottom {
+  color: azure;
+  background-color: #0e0b16;
   margin-top: 15px;
-  padding: 15px;
-  background-color: #d3440c;
+  padding: 20px;
+  background-color: #0e0b16;
+}
+
+.LineBottom a {
+  color:cornflowerblue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
