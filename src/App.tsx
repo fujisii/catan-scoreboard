@@ -66,6 +66,13 @@ function Counter() {
         <p>{count}</p>
         <button type="button" onClick={() => setCount(count - 1)}>-</button>
       </div>
+      <div className="Road">
+        <p>街道</p>
+        <button type="button" onClick={() => setCount(count + 1)}>+</button>
+        <p>{count}</p>
+        <button type="button" onClick={() => setCount(count - 1)}>-</button>
+      </div>
+
     </div>
   )
 }
