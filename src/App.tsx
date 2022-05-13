@@ -77,4 +77,12 @@ function Counter() {
   )
 }
 
+// - keyword: 「Atomic Design」「React hooks」
+// - Atomic Design
+//    - https://design.dena.com/design/atomic-design-%E3%82%92%E5%88%86%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A4%E3%82%82%E3%82%8A%E3%81%AB%E3%81%AA%E3%82%8B
+// - React hooks
+//    - keyword: usestate 複数コンポーネント
+//    - https://reffect.co.jp/react/react-usecontext-understanding
+//    - https://qiita.com/10mi8o/items/78e43c16610972f6c0c6
+
 export default App;
