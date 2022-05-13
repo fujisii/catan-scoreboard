@@ -117,6 +117,10 @@ body {
 
 .Settlement, .City .Road{
   display: flex;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   /* flex-direction: column; */
+}
+
+img {
+  width: 32px;
 }
