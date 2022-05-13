@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './components/atoms/counter';
 
 // eslint-disable-next-line react/function-component-definition
 function App() {
@@ -48,33 +49,6 @@ function Area() {
       <Counter />
     </div>
   );
-}
-function Counter() {
-  const [count, setCount] = React.useState(0);
-  return (
-    <div>
-      <p className="TotalCount">0</p>
-      <div className="Settlement">
-        <p>開拓地</p>
-        <button type="button" onClick={() => setCount(count + 1)}>+</button>
-        <p>{count}</p>
-        <button type="button" onClick={() => setCount(count - 1)}>-</button>
-      </div>
-      <div className="City">
-        <p>都市</p>
-        <button type="button" onClick={() => setCount(count + 1)}>+</button>
-        <p>{count}</p>
-        <button type="button" onClick={() => setCount(count - 1)}>-</button>
-      </div>
-      <div className="Road">
-        <p>街道</p>
-        <button type="button" onClick={() => setCount(count + 1)}>+</button>
-        <p>{count}</p>
-        <button type="button" onClick={() => setCount(count - 1)}>-</button>
-      </div>
-
-    </div>
-  )
 }
 
 // - keyword: 「Atomic Design」「React hooks」
