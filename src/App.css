@@ -62,6 +62,10 @@ a {
   /* overflow:hidden; */
 }
 
+.Special {
+  padding: 0px 30%;
+}
+
 .Build {
   /* margin: auto; */
   /* padding: 0px; */
