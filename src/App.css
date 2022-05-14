@@ -1,6 +1,7 @@
-body {
+html,body {
   margin: 0px;
   -webkit-text-size-adjust: 100%;
+  width: 100%;
   height: 100vh;
 }
 
@@ -13,7 +14,7 @@ a {
 }
 
 .Template {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .Header {
@@ -35,6 +36,7 @@ a {
 
 .Contents {
   width: 100%;
+
   
   /* height: 100vh; */
 }
@@ -42,11 +44,13 @@ a {
   height: 100vh;
 } */
 
+/* https://gimmicklog.com/css3/758/ */
 .SideBySide {
   display:flex;
   justify-content:space-between;
 }
 
+/* https://love-wave.com/css-waku/ */
 .Area {
   margin: 0.5em;
   padding: 2em;
@@ -54,11 +58,42 @@ a {
   color: #666666; /*文字色*/
   background-color: #f7f7f7; /*背景色*/
   border: 4px solid #ccc; /*線の太さ・色*/
-  border-radius: 16px; /*角の丸み*/ 
+  border-radius: 16px; /*角の丸み*/
+  /* overflow:hidden; */
 }
 
+.Build {
+  /* margin: 0.1em;
+  padding: 0px; */
+  /* height: 100px; */
+}
 
 .Total {
   text-align: center;
-  font-size: clamp(128px, 1vw, 256px);
+  font-size: clamp(160px, 1vw, 256px);
+}
+
+.Counter {
+  font-size: 32px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Build img {
+  margin: auto;
+}
+
+.Counter p {
+  padding: 0.6em;
+}
+
+.Counter button {
+  font-size: 14px;
+  color: #f7f7f7;
+  width: 32px;
+  height: 32px;
+  background: #ccc;
+  border-radius: 50%;
 }

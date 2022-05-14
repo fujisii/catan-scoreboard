@@ -4,7 +4,7 @@ import settlement from 'images/settlement.svg';
 
 function BuildSettlement() {
   return (
-    <div className="BuildSettlement SideBySide">
+    <div className="BuildSettlement SideBySide Build">
       <img src={settlement} alt="settlement" />
       <Counter />
     </div>

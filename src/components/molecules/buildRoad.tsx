@@ -4,7 +4,7 @@ import road from 'images/road.svg';
 
 function BuildRoad() {
   return (
-    <div className="BuildRoad SideBySide">
+    <div className="BuildRoad SideBySide Build">
       <img src={road} alt="road" />
       <Counter />
     </div>

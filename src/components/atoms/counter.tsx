@@ -1,5 +1,4 @@
 import React from 'react';
-import settlement from 'images/settlement.svg';
 
 function Counter() {
   const [count, setCount] = React.useState(0);
