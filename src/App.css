@@ -74,7 +74,8 @@ a {
 
 .Total {
   text-align: center;
-  font-size: clamp(160px, 1vw, 256px);
+  /* font-size: clamp(160px, 1vw, 256px); */
+  font-size: 200px;
 }
 
 .Counter {
