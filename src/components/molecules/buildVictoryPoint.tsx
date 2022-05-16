@@ -1,6 +1,6 @@
 import React from 'react';
 import Counter from 'components/atoms/counter';
-import victoryPoint from 'images/victoryPoint.svg';
+import victoryPoint from 'images/victorypoint.svg';
 
 function BuildVictoryPoint() {
   return (
