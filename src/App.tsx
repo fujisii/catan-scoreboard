@@ -6,6 +6,8 @@ import Template from 'components/templates/template';
 import settlement from 'images/settlement.svg';
 import city from 'images/city.svg';
 
+export const Count = React.createContext({})
+
 // eslint-disable-next-line react/function-component-definition
 function App() {
   const counter = {
@@ -43,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="Area">
+      {/* <div className="Area">
         <div className="Total">
           {count.red.total}
         </div>
@@ -63,8 +65,8 @@ function App() {
             <button type="button" onClick={countDown}>-</button>
           </div>
         </div>
-      </div>
-      {/* <Template /> */}
+      </div> */}
+      <Template />
     </div>
   );
 }
