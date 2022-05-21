@@ -1,12 +1,22 @@
 import React from 'react';
+import { TotalCount } from 'App'
 
 function Counter() {
   const [count, setCount] = React.useState(0);
+
+  const countUp = () => {
+    setCount(count + 1);
+  }
+
+  const countDown = () => {
+    setCount(count - 1);
+  }
+
   return (
     <div className="Counter SideBySide">
-      <button type="button" onClick={() => setCount(count + 1)}>+</button>
+      <button type="button" onClick={countUp}>+</button>
       <p>{count}</p>
-      <button type="button" onClick={() => setCount(count - 1)}>-</button>
+      <button type="button" onClick={countDown}>-</button>
     </div>
   )
 }
