@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { TotalCount } from 'App'
 
 function Total() {
-  const [count, setCount] = React.useState(0);
+  const totalCount = useContext(TotalCount);
   return (
     <div className="Total">
-      {count}
+      {totalCount}
     </div>
   )
 }
