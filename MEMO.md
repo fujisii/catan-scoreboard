@@ -16,5 +16,8 @@ https://ja.reactjs.org/docs/hooks-reference.html
 （公式）コンテクスト
 https://ja.reactjs.org/docs/context.html
 
+useContext の値を子コンポーネントから更新（カスタムフック）
+https://qiita.com/ragnar1904/items/0a4338523863922952bb
+
 useContext 合計
 https://qiita.com/suzuki0430/items/78c449e29bcd7898f4c2
