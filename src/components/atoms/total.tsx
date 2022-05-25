@@ -6,7 +6,7 @@ function Total() {
   const totalCount = useContext(TotalCount);
   return (
     <div className="Total">
-      {totalCount}
+      {totalCount.totalCount}
     </div>
   )
 }
