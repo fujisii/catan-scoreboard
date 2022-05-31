@@ -31,10 +31,10 @@ export const useTotalCount = (): totalContext => {
 
 // eslint-disable-next-line react/function-component-definition
 function App() {
-
+  const ctx = useTotalCount();
   return (
     <div className="App">
-      <TotalCount.Provider value={total}>
+      <TotalCount.Provider value={ctx}>
         <Template />
       </TotalCount.Provider>
     </div>
