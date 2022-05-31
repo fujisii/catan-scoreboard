@@ -6,12 +6,15 @@ import Counter from 'components/atoms/counter';
 type totalContext = {
   totalCount: number;
   setTotalCount: () => void;
+  downTotalCount:() => void;
 }
 
 const defaultContext: totalContext = {
   totalCount: 0,
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  setTotalCount: () => {}
+  setTotalCount: () => {},
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  downTotalCount:() => {},
 };
 
 export const TotalCount = createContext<totalContext>(defaultContext);
@@ -24,9 +27,15 @@ export const useTotalCount = (): totalContext => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [totalCount]);
 
+  const downTotalCount = useCallback((): void => {
+    setCount(totalCount - 1);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [totalCount]);
+
   return {
     totalCount,
-    setTotalCount
+    setTotalCount,
+    downTotalCount,
   };
 };
 
