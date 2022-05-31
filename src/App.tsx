@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { createContext, useCallback, useState } from 'react';
 import './App.css';
 import Template from 'components/templates/template';
 import Counter from 'components/atoms/counter';
@@ -14,17 +14,18 @@ const defaultContext: totalContext = {
   setTotalCount: () => {}
 };
 
-export const TotalCount = React.createContext<totalContext>(defaultContext);
+export const TotalCount = createContext<totalContext>(defaultContext);
 
 export const useTotalCount = (): totalContext => {
-  const [count, setCount] = useState(0);
+  const [totalCount, setCount] = useState(0);
 
   const setTotalCount = useCallback((): void => {
-    setCount(count + 1);
-  }, []);
+    setCount(totalCount + 1);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [totalCount]);
 
   return {
-    count, // TODO
+    totalCount,
     setTotalCount
   };
 };
