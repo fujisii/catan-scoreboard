@@ -6,7 +6,7 @@ function BuildCity() {
   return (
     <div className="BuildCity SideBySide Build">
       <img src={city} alt="city" />
-      <Counter />
+      <Counter point={2} />
     </div>
   )
 }

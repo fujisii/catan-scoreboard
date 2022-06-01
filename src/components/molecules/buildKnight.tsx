@@ -6,7 +6,7 @@ function BuildKnight() {
   return (
     <div className="BuildKnight SideBySide Build">
       <img src={knight} alt="knight" />
-      <Counter />
+      <Counter point={0} />
     </div>
   )
 }

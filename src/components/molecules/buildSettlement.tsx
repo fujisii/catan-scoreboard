@@ -6,7 +6,7 @@ function BuildSettlement() {
   return (
     <div className="BuildSettlement SideBySide Build">
       <img src={settlement} alt="settlement" />
-      <Counter />
+      <Counter point={1} />
     </div>
   )
 }

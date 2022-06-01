@@ -6,7 +6,7 @@ function BuildVictoryPoint() {
   return (
     <div className="BuildVictoryPoint SideBySide Build">
       <img src={victoryPoint} alt="victoryPoint" />
-      <Counter />
+      <Counter point={1} />
     </div>
   )
 }

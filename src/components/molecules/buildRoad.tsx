@@ -6,7 +6,7 @@ function BuildRoad() {
   return (
     <div className="BuildRoad SideBySide Build">
       <img src={road} alt="road" />
-      <Counter />
+      <Counter point={0} />
     </div>
   )
 }
