@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 
-import { TotalCount } from 'App'
+import { TotalCount } from 'components/molecules/area'
 
 function Total() {
   const totalCount = useContext(TotalCount);

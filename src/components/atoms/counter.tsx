@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { TotalCount } from 'App'
+import { TotalCount } from 'components/molecules/area'
 
 function Counter() {
   const [count, setCount] = useState(0);
