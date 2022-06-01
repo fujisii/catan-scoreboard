@@ -25,3 +25,6 @@ https://qiita.com/suzuki0430/items/78c449e29bcd7898f4c2
 React×TypeScript　基本の型定義
 - 関数コンポーネント、など
 https://qiita.com/hinako_n/items/97ccaf85eb40d7e45657
+
+【2021年版】もう配色デザインには迷わない！すごい無料カラーパレットツール83個まとめ
+https://photoshopvip.net/72189
