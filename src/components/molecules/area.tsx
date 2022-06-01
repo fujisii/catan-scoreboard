@@ -9,8 +9,8 @@ import BuildVictoryPoint from './buildVictoryPoint';
 
 type totalContext = {
   totalCount: number;
-  setTotalCount: (increment: number) => void;
-  downTotalCount:(increment: number) => void;
+  setTotalCount: () => void;
+  downTotalCount:() => void;
 }
 
 const defaultContext: totalContext = {
@@ -23,16 +23,16 @@ const defaultContext: totalContext = {
 
 export const TotalCount = createContext<totalContext>(defaultContext);
 
-export const useTotalCount = (increment: number): totalContext => {
+export const useTotalCount = (): totalContext => {
   const [totalCount, setCount] = useState(0);
 
   const setTotalCount = useCallback((): void => {
-    setCount(totalCount + increment);
+    setCount(totalCount + 1);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [totalCount]);
 
   const downTotalCount = useCallback((): void => {
-    setCount(totalCount - increment);
+    setCount(totalCount - 1);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [totalCount]);
 
