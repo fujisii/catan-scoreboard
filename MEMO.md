@@ -21,3 +21,7 @@ https://qiita.com/ragnar1904/items/0a4338523863922952bb
 
 useContext 合計
 https://qiita.com/suzuki0430/items/78c449e29bcd7898f4c2
+
+React×TypeScript　基本の型定義
+- 関数コンポーネント、など
+https://qiita.com/hinako_n/items/97ccaf85eb40d7e45657
