@@ -9,8 +9,8 @@ import BuildVictoryPoint from './buildVictoryPoint';
 
 type totalContext = {
   totalCount: number;
-  setTotalCount: () => void;
-  downTotalCount:() => void;
+  setTotalCount: (increment: number) => void;
+  downTotalCount:(decrement: number) => void;
 }
 
 const defaultContext: totalContext = {
@@ -26,14 +26,14 @@ export const TotalCount = createContext<totalContext>(defaultContext);
 export const useTotalCount = (): totalContext => {
   const [totalCount, setCount] = useState(0);
 
-  const setTotalCount = useCallback((): void => {
-    setCount(totalCount + 1);
+  const setTotalCount = useCallback((increment: number): void => {
+    setCount(totalCount + increment);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [totalCount]);
 
-  const downTotalCount = useCallback((): void => {
-    setCount(totalCount - 1);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const downTotalCount = useCallback((decrement: number): void => {
+    setCount(totalCount - decrement);
+  // eslint-disable-next-lie react-hooks/exhaustive-deps
   }, [totalCount]);
 
   return {
@@ -50,7 +50,7 @@ function Area() {
       <div className="Area">
         <Total />
         <Special />
-        <BuildSettlement/>
+        <BuildSettlement />
         <BuildCity />
         <BuildRoad />
         <BuildKnight />

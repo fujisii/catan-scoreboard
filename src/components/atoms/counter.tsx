@@ -7,12 +7,12 @@ function Counter() {
 
   const countUp = () => {
     setCount(count + 1);
-    ctx.setTotalCount();
+    ctx.setTotalCount(2);
   }
 
   const countDown = () => {
     setCount(count - 1);
-    ctx.downTotalCount();
+    ctx.downTotalCount(1);
   }
 
   return (
