@@ -1,7 +1,6 @@
 import React, { createContext, useCallback, useState } from 'react';
 import './App.css';
 import Template from 'components/templates/template';
-import Counter from 'components/atoms/counter';
 
 type totalContext = {
   totalCount: number;
