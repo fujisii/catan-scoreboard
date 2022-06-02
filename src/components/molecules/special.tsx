@@ -1,6 +1,9 @@
 import React, { useState, useContext } from 'react';
-import road from 'images/road.svg';
-import knight from 'images/knight.svg';
+// import road from 'images/road.svg';
+// import knight from 'images/knight.svg';
+import roadOn from 'images/roadOn.svg';
+import knightOn from 'images/knightOn.svg';
+
 
 import { TotalCount } from 'components/molecules/area'
 
@@ -33,10 +36,10 @@ function Special() {
   return (
     <div className="Special SideBySide">
       <div onClick={toggleLongestRoad} aria-hidden="true">
-        <img src={road} alt="road" />
+        <img src={roadOn} alt="road" />
       </div>
       <div onClick={toggleLargestArmy} aria-hidden="true">
-        <img src={knight} alt="knight" />
+        <img src={knightOn} alt="knight" />
       </div>
     </div>
   )
