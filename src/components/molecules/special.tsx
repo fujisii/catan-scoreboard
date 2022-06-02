@@ -36,10 +36,10 @@ function Special() {
   return (
     <div className="Special SideBySide">
       <div onClick={toggleLongestRoad} aria-hidden="true">
-        <img src={roadOn} alt="road" />
+        <img src={longestRoad ? road : roadOn} alt="road" />
       </div>
       <div onClick={toggleLargestArmy} aria-hidden="true">
-        <img src={knightOn} alt="knight" />
+        <img src={largestArmy ? knight : knightOn} alt="knight" />
       </div>
     </div>
   )
