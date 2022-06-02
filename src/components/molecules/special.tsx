@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
-// import road from 'images/road.svg';
-// import knight from 'images/knight.svg';
+import road from 'images/road.svg';
+import knight from 'images/knight.svg';
 import roadOn from 'images/roadOn.svg';
 import knightOn from 'images/knightOn.svg';
 
