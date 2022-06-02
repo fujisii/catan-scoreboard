@@ -43,11 +43,11 @@ export const useTotalCount = (): totalContext => {
   };
 };
 
-function Area() {
+function Area({ color }:{ color: string }) {
   const ctx = useTotalCount();
   return (
     <TotalCount.Provider value={ctx}>
-      <div className="Area">
+      <div className={`Area ${color}`}>
         <Total />
         <Special />
         <BuildSettlement />

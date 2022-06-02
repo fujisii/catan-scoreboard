@@ -30,7 +30,7 @@ a {
   color:aliceblue;
   width: 100%;
   margin: auto;
-  padding: 15px;
+  padding: 16px;
   background-color: #160c1f;
 }
 
@@ -57,11 +57,30 @@ a {
   width: 90%; /*幅の調節*/
   color: #666666; /*文字色*/
   background-color: #f7f7f7; /*背景色*/
-  border: 4px solid #ccc; /*線の太さ・色*/
+  /* border: 4px solid #ccc; 線の太さ・色 */
   border-radius: 16px; /*角の丸み*/
   /* overflow:hidden; */
 }
 
+.Blue {
+  background-color: #E3F2FD;
+  border: 4px solid #90CAF9;
+}
+
+.Red {
+  background-color: #FFEBEE;
+  border: 4px solid #EF9A9A;
+}
+
+.White {
+  background-color: #ECEFF1;
+  border: 4px solid #B0BEC5;
+}
+
+.Orange {
+  background-color: #FFF3E0;
+  border: 4px solid #FFCC80;
+}
 .Special {
   padding: 0px 30%;
 }
