@@ -5,6 +5,11 @@ html,body {
   height: 100vh;
 }
 
+body {
+  background-image: url(./images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 img {
   width: 32px;
 }
@@ -65,23 +70,23 @@ a {
 
 .Blue {
   /* background-color: #E3F2FD; */
-  background-color: rgba(227,242,253,1); /* https://kouhekikyozou.com/css_background_color_transparent#%EF%BC%92%EF%BC%8E%E8%83%8C%E6%99%AF%E8%89%B2%E3%81%AE%E3%81%BF%E9%80%8F%E6%98%8E%E3%81%AB%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%EF%BC%9F */
-  border: 4px solid #90CAF9;
+  background-color: rgba(227,242,253,0.85); /* https://kouhekikyozou.com/css_background_color_transparent#%EF%BC%92%EF%BC%8E%E8%83%8C%E6%99%AF%E8%89%B2%E3%81%AE%E3%81%BF%E9%80%8F%E6%98%8E%E3%81%AB%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%EF%BC%9F */
+  border: 5px solid #90CAF9;
 }
 
 .Red {
-  background-color: #FFEBEE;
-  border: 4px solid #EF9A9A;
+  background-color: rgba(255,235,238,0.85);
+  border: 5px solid #EF9A9A;
 }
 
 .White {
-  background-color: #ECEFF1;
-  border: 4px solid #B0BEC5;
+  background-color: rgba(250,250,250,0.85);
+  border: 5px solid #B0BEC5;
 }
 
 .Orange {
-  background-color: #FFF3E0;
-  border: 4px solid #FFCC80;
+  background-color: rgba(255,243,224,0.85);
+  border: 5px solid #FFCC80;
 }
 .Special {
   padding: 0px 25% 10%;
