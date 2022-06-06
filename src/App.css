@@ -64,7 +64,8 @@ a {
 }
 
 .Blue {
-  background-color: #E3F2FD;
+  /* background-color: #E3F2FD; */
+  background-color: rgba(227,242,253,1); /* https://kouhekikyozou.com/css_background_color_transparent#%EF%BC%92%EF%BC%8E%E8%83%8C%E6%99%AF%E8%89%B2%E3%81%AE%E3%81%BF%E9%80%8F%E6%98%8E%E3%81%AB%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%EF%BC%9F */
   border: 4px solid #90CAF9;
 }
 
