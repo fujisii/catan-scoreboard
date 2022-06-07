@@ -24,11 +24,13 @@ a {
 
 .Header {
   /* position: fixed; */
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
 }
 
 .Footer {
   position: absolute;/* ←絶対位置 */
   bottom: 0;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
 }
 
 .Header, .Footer {
@@ -57,7 +59,7 @@ a {
 
 /* https://love-wave.com/css-waku/ */
 .Area {
-  margin: 0.5em;
+  margin: 0.7em 0.5em;
   padding: 2em;
   width: 90%; /*幅の調節*/
   color: #666666; /*文字色*/
@@ -66,6 +68,7 @@ a {
   border-radius: 16px; /*角の丸み*/
   /* overflow:hidden; */
   /* height: 100%; */
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
 }
 
 .Blue {
