@@ -59,7 +59,7 @@ a {
 
 /* https://love-wave.com/css-waku/ */
 .Area {
-  margin: 0.7em 0.5em;
+  margin: 1.0em 0.8em;
   padding: 2em;
   width: 90%; /*幅の調節*/
   color: #666666; /*文字色*/
@@ -74,22 +74,22 @@ a {
 .Blue {
   /* background-color: #E3F2FD; */
   background-color: rgba(227,242,253,0.85); /* https://kouhekikyozou.com/css_background_color_transparent#%EF%BC%92%EF%BC%8E%E8%83%8C%E6%99%AF%E8%89%B2%E3%81%AE%E3%81%BF%E9%80%8F%E6%98%8E%E3%81%AB%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%EF%BC%9F */
-  border: 5px solid #90CAF9;
+  border: 6px solid #42A5F5;  /* Blue 400 */
 }
 
 .Red {
   background-color: rgba(255,235,238,0.85);
-  border: 5px solid #EF9A9A;
+  border: 6px solid #EC407A; /* Pink 400 */
 }
 
 .White {
   background-color: rgba(250,250,250,0.85);
-  border: 5px solid #B0BEC5;
+  border: 6px solid #9E9E9E; /* Gray 500 */
 }
 
 .Orange {
   background-color: rgba(255,243,224,0.85);
-  border: 5px solid #FFCC80;
+  border: 6px solid #FFA726; /* Orange 400 */
 }
 .Special {
   padding: 0px 25% 10%;
