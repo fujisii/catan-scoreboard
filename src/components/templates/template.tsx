@@ -8,10 +8,10 @@ function Template() {
     <div className="Template">
       <Header />
       <div className="Contents SideBySide">
-        <Area color="Blue" />
-        <Area color="Red" />
-        <Area color="White" />
-        <Area color="Orange" />
+        <Area color="blue" />
+        <Area color="red" />
+        <Area color="white" />
+        <Area color="orange" />
       </div>
       <Footer />
     </div>
