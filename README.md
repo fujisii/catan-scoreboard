@@ -15,4 +15,5 @@
 ## 使用技術・手法
 
 - React
+- TypeScript
 - Atomic Design
