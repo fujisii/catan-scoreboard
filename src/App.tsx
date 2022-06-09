@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useState } from 'react';
+import React from 'react';
 import './App.css';
 import Template from 'components/templates/template';
 
