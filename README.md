@@ -8,12 +8,13 @@
 
 - https://fujisii.github.io/catan-scoreboard/
 
-## 推奨環境
+## 推奨動作環境
 
 - タブレット端末での使用を推奨します。
 
 ## 使用技術・手法
-
+- HTML
+- CSS
 - React
 - TypeScript
 - Atomic Design
