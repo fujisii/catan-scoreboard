@@ -136,7 +136,7 @@ a {
   border-radius: 50%;
 }
 
-/* フォント崩れ対応（修正中） */
+/* Safariフォント崩れ対応（修正中） */
 /* https://teratail.com/questions/78551 */
 *,
 *::before,
