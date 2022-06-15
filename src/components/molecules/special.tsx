@@ -34,7 +34,7 @@ function Special() {
   }
 
   return (
-    <div className="Special SideBySide">
+    <div className="Special side-by-side">
       <div onClick={toggleLongestRoad} aria-hidden="true">
         <img src={longestRoad ? road : roadOn} alt="road" />
       </div>

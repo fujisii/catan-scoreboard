@@ -16,7 +16,7 @@ function Counter({point}:{point: number}) {
   }
 
   return (
-    <div className="Counter SideBySide">
+    <div className="Counter side-by-side">
       <button type="button" onClick={countUp}>+</button>
       <p>{count}</p>
       <button type="button" onClick={countDown}>-</button>

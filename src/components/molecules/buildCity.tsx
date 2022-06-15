@@ -4,7 +4,7 @@ import city from 'images/city.svg';
 
 function BuildCity() {
   return (
-    <div className="BuildCity SideBySide Build">
+    <div className="BuildCity side-by-side Build">
       <img src={city} alt="city" />
       <Counter point={2} />
     </div>

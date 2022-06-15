@@ -57,8 +57,10 @@ a {
   height: calc(var(--vh, 1vh) * 86);
 }
 
+
+/* 横並びレイアウト */
 /* https://gimmicklog.com/css3/758/ */
-.SideBySide {
+.side-by-side {
   display:flex;
   justify-content:space-between;
 }

@@ -4,7 +4,7 @@ import knight from 'images/knight.svg';
 
 function BuildKnight() {
   return (
-    <div className="BuildKnight SideBySide Build">
+    <div className="BuildKnight side-by-side Build">
       <img src={knight} alt="knight" />
       <Counter point={0} />
     </div>
