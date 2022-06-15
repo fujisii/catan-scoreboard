@@ -4,7 +4,7 @@ import victoryPoint from 'images/victorypoint.svg';
 
 function BuildVictoryPoint() {
   return (
-    <div className="BuildVictoryPoint side-by-side build">
+    <div className="build-victory-point side-by-side build">
       <img src={victoryPoint} alt="victoryPoint" />
       <Counter point={1} />
     </div>
