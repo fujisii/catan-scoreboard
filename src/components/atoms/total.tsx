@@ -5,7 +5,7 @@ import { TotalCount } from 'components/molecules/area'
 function Total() {
   const totalCount = useContext(TotalCount);
   return (
-    <div className="total-counter">
+    <div className="total">
       {totalCount.totalCount}
     </div>
   )

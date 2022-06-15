@@ -102,7 +102,7 @@ a {
   padding: 0px 25% 10%;
 }
 
-.total-counter {
+.total {
   text-align: center;
   font-size: clamp(160px, 1vw, 200px);
   /* font-size: 200px; */
