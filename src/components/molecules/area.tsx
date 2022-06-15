@@ -47,7 +47,7 @@ function Area({ color }:{ color: string }) {
   const ctx = useTotalCount();
   return (
     <TotalCount.Provider value={ctx}>
-      <div className={`Area ${color}`}>
+      <div className={`area ${color}`}>
         <Total />
         <Special />
         <BuildSettlement />
