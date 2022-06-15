@@ -108,7 +108,7 @@ a {
   /* font-size: 200px; */
 }
 
-.Counter {
+.counter {
   /* font-size: 24px; */
   margin: auto;
   display: flex;
@@ -116,7 +116,7 @@ a {
   justify-content: center;
 }
 
-.Counter > p {
+.counter > p {
   font-size: 24px;
   width: 3ch;
   text-align:center;
@@ -126,7 +126,7 @@ a {
   margin: auto;
 }
 
-.Counter button {
+.counter button {
   font-size: 14px;
   color: #f7f7f7;
   width: 32px;
