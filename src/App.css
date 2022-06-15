@@ -31,18 +31,18 @@ a {
   /* height: 100vh; */
 }
 
-.Header {
+.header {
   /* position: fixed; */
   filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
 }
 
-.Footer {
+.footer {
   position: absolute;/* ←絶対位置 */
   bottom: 0;
   filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
 }
 
-.Header, .Footer {
+.header, .footer {
   text-align: center;
   color:aliceblue;
   width: 100%;
@@ -51,7 +51,7 @@ a {
   background-color: #22004b;
 }
 
-.Contents {
+.contens {
   width: 100%;
   height: 100vh; /* CSS変数をサポートしていないブラウザ用のフォールバック */
   height: calc(var(--vh, 1vh) * 86);

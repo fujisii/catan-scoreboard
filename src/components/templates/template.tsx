@@ -7,7 +7,7 @@ function Template() {
   return (
     <div className="template">
       <Header />
-      <div className="Contents side-by-side">
+      <div className="contens side-by-side">
         <Area color="blue" />
         <Area color="red" />
         <Area color="white" />
