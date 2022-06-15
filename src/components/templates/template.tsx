@@ -5,7 +5,7 @@ import Area from 'components/molecules/area';
 
 function Template() {
   return (
-    <div className="Template">
+    <div className="template">
       <Header />
       <div className="Contents side-by-side">
         <Area color="blue" />
