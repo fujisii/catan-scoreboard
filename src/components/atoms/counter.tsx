@@ -11,6 +11,9 @@ function Counter({point}:{point: number}) {
   }
 
   const countDown = () => {
+    if (count <= 0) {
+      return;
+    }
     setCount(count - 1);
     ctx.downTotalCount(point);
   }
