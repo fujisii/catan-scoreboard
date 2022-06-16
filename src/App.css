@@ -4,14 +4,17 @@ html,body {
   width: 100%;
   height: 100vh;
 
-  overflow: hidden; /* スクロール抑制 */
+  /* スクロール抑制 */
+  overflow: hidden;
 }
 
 body {
+  /* 背景画像 */
   background-image: url(./images/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 
+  /* フォントファミリー */
   font-family: "Helvetica Neue",
   Arial,
   "Hiragino Kaku Gothic ProN",
@@ -19,6 +22,7 @@ body {
   Meiryo,
   sans-serif;
 }
+
 img {
   width: 32px;
 }
@@ -27,77 +31,84 @@ a {
   color: cornflowerblue;
 }
 
+.root {
+  height: 100vh;
+}
+
+.app {
+  height: 100vh;
+}
+
 .template {
-  /* height: 100vh; */
-}
-
-.header {
-  /* position: fixed; */
-  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
-}
-
-.footer {
-  position: absolute;/* ←絶対位置 */
-  bottom: 0;
-  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  height: 100vh;
 }
 
 .header, .footer {
-  text-align: center;
-  color:aliceblue;
   width: 100%;
-  margin: auto;
-  padding: 16px;
   background-color: #22004b;
+  color:aliceblue;
+  margin: 0px;
+
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+
+  /* テキストを中央寄せにする（1行限定） */
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer {
+  /* 最下部に固定する */
+  position: absolute;
+  bottom: 0;
 }
 
 .contents {
   width: 100%;
-  height: 100vh; /* CSS変数をサポートしていないブラウザ用のフォールバック */
-  height: calc(var(--vh, 1vh) * 86);
+  height: calc(100% - 100px); /* ヘッダーとフッターを除いた高さ */
 }
 
 
-/* 横並びレイアウト */
-/* https://gimmicklog.com/css3/758/ */
+
 .side-by-side {
+  /* 横並びレイアウト */
   display:flex;
   justify-content:space-between;
 }
 
-/* https://love-wave.com/css-waku/ */
 .area {
+  width: 100%;
+  color: #666666;
+  border-radius: 16px; /*角の丸み*/
+
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+
+  /* margin, paddingは調整中 */
   margin: 1.0em 0.8em;
   padding: 0px 1em;
-  width: 90%; /*幅の調節*/
-  color: #666666; /*文字色*/
-  background-color: #f7f7f7; /*背景色*/
-  /* border: 4px solid #ccc; 線の太さ・色 */
-  border-radius: 16px; /*角の丸み*/
-  /* overflow:hidden; */
-  /* height: 100%; */
-  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
 }
 
 .blue {
   background-color: rgba(227,242,253,0.85);
-  border: 6px solid #42A5F5;  /* Blue 400 */
+  border: 6px solid #42A5F5;  /* 線の太さ・色: Blue 400 */
 }
 
 .red {
   background-color: rgba(255,235,238,0.85);
-  border: 6px solid #EC407A; /* Pink 400 */
+  border: 6px solid #EC407A; /* 線の太さ・色: Pink 400 */
 }
 
 .white {
   background-color: rgba(250,250,250,0.85);
-  border: 6px solid #9E9E9E; /* Gray 500 */
+  border: 6px solid #9E9E9E; /* 線の太さ・色: Gray 500 */
 }
 
 .orange {
   background-color: rgba(255,243,224,0.85);
-  border: 6px solid #FFA726; /* Orange 400 */
+  border: 6px solid #FFA726; /* 線の太さ・色: Orange 400 */
 }
+
+/* 以下、要調整 */
 .special {
   padding: 0px 25% 10%;
 }
