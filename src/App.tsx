@@ -19,7 +19,7 @@ function App() {
   document.addEventListener('touchmove', disableScroll, { passive: false });
 
   return (
-    <div className="App">
+    <div className="app">
         <Template />
     </div>
   );
