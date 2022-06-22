@@ -2,11 +2,9 @@
 
 - 世界中で大人気のボードゲーム「CATAN（カタン）」の得点表アプリです。
 
-- 以下のURLにて公開しています。
+- こちらで公開しています：https://fujisii.github.io/catan-scoreboard/
 
-## URL
-
-- https://fujisii.github.io/catan-scoreboard/
+![image](https://user-images.githubusercontent.com/51264835/175039864-3413d84c-9cd2-4a5b-a240-15e407cd4884.jpg)
 
 ## 推奨動作環境
 
