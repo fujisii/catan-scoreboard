@@ -1,13 +1,19 @@
 import React, { useContext, useState } from 'react';
 import { TotalCount } from 'components/molecules/area';
+import { GameWinner } from 'components/templates/template';
 
 function Counter({point}:{point: number}) {
   const [count, setCount] = useState(0);
   const ctx = useContext(TotalCount);
+  const winner = useContext(GameWinner);
 
   const countUp = () => {
     setCount(count + 1);
     ctx.setTotalCount(point);
+
+    if (ctx.totalCount + 1 === 10) {
+      winner.onWinner();
+    }
   }
 
   const countDown = () => {

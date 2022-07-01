@@ -1,24 +1,41 @@
-import React, { createContext, useContext } from 'react';
+import React, { createContext, useCallback, useState } from 'react';
 import Header from 'components/organisms/header';
 import Footer from 'components/organisms/footer';
 import Area from 'components/molecules/area';
 import Winner from 'components/atoms/winner';
 
 type gameWinnerContext = {
-  isWinner: boolean;
+  winner: boolean;
+  onWinner: () => void;
 };
 
 const defaultGameWinnerContext: gameWinnerContext = {
-  isWinner: false
+  winner: false,
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  onWinner: () => {},
 };
 
 export const GameWinner = createContext<gameWinnerContext>(defaultGameWinnerContext);
 
+export const useGameWinner = (): gameWinnerContext => {
+  const [winner, setWinner] = useState(false);
+
+  const onWinner = useCallback((): void => {
+    setWinner(true);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [winner])
+
+  return {
+    winner,
+    onWinner,
+  };
+}
+
 function Template() {
-  const ctx = useContext(GameWinner);
+  const ctx = useGameWinner();
 
   let winner;
-  if (ctx.isWinner) {
+  if (ctx.winner) {
     winner = <Winner />;
   }
 
