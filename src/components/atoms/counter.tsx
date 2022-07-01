@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { TotalCount } from 'components/molecules/area'
+import { TotalCount } from 'components/molecules/area';
 
 function Counter({point}:{point: number}) {
   const [count, setCount] = useState(0);
