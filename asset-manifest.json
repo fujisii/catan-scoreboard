@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/catan-scoreboard/static/css/main.c6a7a418.css",
-    "main.js": "/catan-scoreboard/static/js/main.e5da9913.js",
+    "main.js": "/catan-scoreboard/static/js/main.b08efd7b.js",
     "static/js/787.ca181bcc.chunk.js": "/catan-scoreboard/static/js/787.ca181bcc.chunk.js",
     "static/media/background.jpeg": "/catan-scoreboard/static/media/background.2594f028154a2b2b9501.jpeg",
     "static/media/knight.svg": "/catan-scoreboard/static/media/knight.7085f7629e7d110b0a87edc43b6cab96.svg",
@@ -13,11 +13,11 @@
     "index.html": "/catan-scoreboard/index.html",
     "static/media/settlement.svg": "/catan-scoreboard/static/media/settlement.cbeba8ff45aad1a4b69804f983ebd88d.svg",
     "main.c6a7a418.css.map": "/catan-scoreboard/static/css/main.c6a7a418.css.map",
-    "main.e5da9913.js.map": "/catan-scoreboard/static/js/main.e5da9913.js.map",
+    "main.b08efd7b.js.map": "/catan-scoreboard/static/js/main.b08efd7b.js.map",
     "787.ca181bcc.chunk.js.map": "/catan-scoreboard/static/js/787.ca181bcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6a7a418.css",
-    "static/js/main.e5da9913.js"
+    "static/js/main.b08efd7b.js"
   ]
 }
