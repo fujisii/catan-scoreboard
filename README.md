@@ -4,7 +4,7 @@
 
 - こちらで公開しています：https://fujisii.github.io/catan-scoreboard/
 
-![image](https://user-images.githubusercontent.com/51264835/175039864-3413d84c-9cd2-4a5b-a240-15e407cd4884.jpg)
+![screenshot](https://user-images.githubusercontent.com/51264835/181912560-2e85025d-ff5f-4238-b44c-21aceec35030.jpg)
 
 ## 推奨動作環境
 
