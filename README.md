@@ -11,7 +11,7 @@
 - TypeScript
 - Atomic Design
 
-## URL
+## Demo
 
 - こちらで公開しています：https://fujisii.github.io/catan-scoreboard/
 - タブレット端末での使用を推奨しています。
