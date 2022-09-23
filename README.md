@@ -15,5 +15,8 @@
 
 - こちらで公開しています：https://fujisii.github.io/catan-scoreboard/
 - タブレット端末での使用を推奨しています。
+- 10点先取で勝利の紙吹雪が舞います。
+
+Victory! :)))
 
 ![preview](https://user-images.githubusercontent.com/51264835/181913680-fba782a1-81b9-484c-bb29-490b9035a007.gif)
